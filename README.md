@@ -1,39 +1,16 @@
-# PetVida
-PetVida – Clínica Veterinária & Petshop
-Site completo para clínica veterinária e petshop com painel administrativo e banco de dados local.
+# React + Vite
 
-Funcionalidades
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Site vitrine — hero, serviços, produtos, depoimentos e contato
-Agendamentos — cadastro, filtros por status e controle (confirmar, concluir, cancelar)
-Produtos — cadastro completo com estoque e alerta de estoque baixo
-Serviços — cadastro com preço, duração e descrição
-Auto-save — todos os dados salvos automaticamente no navegador via localStorage
+Currently, two official plugins are available:
 
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-Como rodar
-Pré-requisito: Node.js instalado (nodejs.org)
-bashnpm create vite@latest petvida -- --template react
-cd petvida
-npm install
-Substitua o conteúdo de src/App.jsx pelo arquivo do projeto e rode:
-bashnpm run dev
-Acesse http://localhost:5173
+## React Compiler
 
-Tecnologias
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-React 18
-Vite
-CSS-in-JS (estilos inline)
-localStorage (banco de dados)
+## Expanding the ESLint configuration
 
-
-Estrutura
-petvida/
-├── src/
-│   └── App.jsx       # Todo o código da aplicação
-├── index.html
-└── package.json
-
-📌 Observação
-O projeto usa localStorage para persistir os dados. Isso significa que as informações ficam salvas no navegador do usuário e não são compartilhadas entre dispositivos diferentes.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
