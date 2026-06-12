@@ -1,16 +1,61 @@
-# React + Vite
+🐾 PetVida – Clínica Veterinária & Petshop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Site completo para clínica veterinária e petshop com painel administrativo e banco de dados local.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+✨ Funcionalidades
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🏠 Site vitrine — hero, serviços, produtos, depoimentos e contato
+📅 Agendamentos — cadastro, filtros por status e controle completo
+🛒 Produtos — cadastro com estoque e alerta de estoque baixo
+🩺 Serviços — cadastro com preço, duração e descrição
+💾 Auto-save — dados salvos automaticamente via localStorage
+💬 WhatsApp — botão flutuante de contato
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+🚀 Como rodar
+
+Pré-requisito: Node.js instalado (nodejs.org)
+
+bash# Instalar dependências
+npm install
+
+# Rodar em desenvolvimento
+npm run dev
+
+Acesse http://localhost:5173 no navegador.
+
+
+🛠 Tecnologias
+
+
+React 18
+Vite
+CSS-in-JS (estilos inline)
+localStorage (banco de dados)
+
+
+
+📁 Estrutura
+
+pet_vida/
+├── src/
+│   └── App.jsx        # Todo o código da aplicação
+├── public/
+├── index.html
+├── package.json
+└── vite.config.js
+
+
+📌 Observação
+
+Os dados ficam salvos no navegador via localStorage. Isso significa que as informações são salvas localmente e não são compartilhadas entre dispositivos diferentes.
+
+
+👨‍💻 Como atualizar no GitHub
+
+bashgit add .
+git commit -m "descrição da mudança"
+git push
